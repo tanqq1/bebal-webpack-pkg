@@ -1,0 +1,19 @@
+{
+  "name": "babel-has-runtime",
+  "version": "1.0.1",
+  "description": "babel compile  compare",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "node index.js",
+    "compile":"babel src --out-dir lib"
+  },
+  "author": "tanqq",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.1",
+    "@babel/plugin-transform-runtime": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "@babel/preset-typescript": "^7.18.6"
+  }
+}

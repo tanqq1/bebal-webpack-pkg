@@ -1,0 +1,27 @@
+{
+  "name": "babel-webpack",
+  "version": "1.0.0",
+  "description": "webpack for @babel/transform-runtime test",
+  "main": "dist/index.js",
+  "type": "module",
+  "module": "dist/index.js",
+  "scripts": {
+    "test": "node src/index.js",
+    "build": "webpack"
+  },
+  "keywords": [
+    "webpack",
+    "@babel/transform-runtime"
+  ],
+  "author": "tanqq",
+  "license": "ISC",
+  "dependencies": {
+    "babel-has-runtime": "^1.0.1",
+    "babel-no-runtime": "^1.0.2",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
